@@ -1,6 +1,6 @@
 bucket = "imob-hunter-items"
-cloud_source_repository = "github_bravobardo"
+cloud_source_repository = "github_bravobardo_imobhunter"
 crontab_schedule = "44 8 * * *"
-project = "imobhunter"
+project = "imobfinder"
 region = "us-east1"
 zone = "us-east1-b"
