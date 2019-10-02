@@ -3,7 +3,7 @@
 set -e
 
 TRIGGER_ID=$(gcloud alpha builds triggers list \
-	--filter='triggerTemplate.repoName:github_irio_wohnung' \
+	--filter='triggerTemplate.repoName:github_bravobardo_imobhunter' \
 	--format json | jq --raw-output '.[0].id')
 
 gcloud alpha builds triggers run $TRIGGER_ID \
