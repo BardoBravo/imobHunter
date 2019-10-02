@@ -1,4 +1,4 @@
-bucket = "imob-hunter-items"
+bucket = "imob-finder-items"
 cloud_source_repository = "github_bravobardo_imobhunter"
 crontab_schedule = "44 8 * * *"
 project = "imobfinder"
